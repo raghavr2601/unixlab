@@ -1,0 +1,114 @@
+Script started on 2019-08-12 15:56:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat < Ch6S4F1 > Ch6S5F1
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ sort -k3ne [K[Kr Ch6S4F1 | head -1 | cut [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat > CH[Kh67[KS5F2
+1420 12.56   45
+2456 14.56   22
+2341 45.12   34
+1322 23.56   28
+1443 23.23   19
+2351 67.90   56
+3467 56.90   14
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Cb[Kh6S5F1
+1420 12.56   45 L
+3456 14.56   22
+2341 45.12   34
+1122 23.55   28
+1443 23.23   19
+2351 67.90   56
+8001 7.00    14
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Ch6S5F1[K2
+1420 12.56   45
+2456 14.56   22
+2341 45.12   34
+1322 23.56   28
+1443 23.23   19
+2351 67.90   56
+3467 56.90   14
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ vi Ch6s[KS
+Ch6S1F1  Ch6S2F1  Ch6S4F1  Ch6S5F1  Ch6S5F2  
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ vi Ch6S5F2
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Ch6S5F2" 7 lines, 112 characters[1;1H1420 12.56   45
+2456 14.56   22
+2341 45.12   34
+1322 23.56   28
+1443 23.23   19
+2351 67.90   56
+3467 56.90   14
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"Ch6S5F2" 7 lines, 112 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Ch6s[KSF1 CH[Kh^[K6S5F2
+cat: Ch6SF1: No such file or directory
+1420 12.56   45
+2456 14.56   22
+2341 45.12   34
+1322 23.56   28
+1443 23.23   19
+2351 67.90   56
+3467 56.90   14
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Ch6SF1 Ch6S5F2[C[C[1@5
+1420 12.56   45 L
+3456 14.56   22
+2341 45.12   34
+1122 23.55   28
+1443 23.23   19
+2351 67.90   56
+8001 7.00    14
+1420 12.56   45
+2456 14.56   22
+2341 45.12   34
+1322 23.56   28
+1443 23.23   19
+2351 67.90   56
+3467 56.90   14
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ sior[K[K[Kort -k1n Ch6S5F1 > temo1[K[Kp1
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ c[Ksort -k2n Ch6S5F2 > temp2
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat temp1
+1122 23.55   28
+1420 12.56   45 L
+1443 23.23   19
+2341 45.12   34
+2351 67.90   56
+3456 14.56   22
+8001 7.00    14
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat temp2
+1420 12.56   45
+2456 14.56   22
+1443 23.23   19
+1322 23.56   28
+2341 45.12   34
+3467 56.90   14
+2351 67.90   56
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cp CH[Kh6S5F1 cH[K[KCh6S5F3
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ ca [Kt M[K<<[K Ch6S5F2 >> Ch6S5F3
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Ch6s[KS5F3
+1420 12.56   45 L
+3456 14.56   22
+2341 45.12   34
+1122 23.55   28
+1443 23.23   19
+2351 67.90   56
+8001 7.00    14
+1420 12.56   45
+2456 14.56   22
+2341 45.12   34
+1322 23.56   28
+1443 23.23   19
+2351 67.90   56
+3467 56.90   14
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ sort Ch6S5F3 | uniq > temo[Kp
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cp temp Ch6s[KS5F3
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Cg[Kh6S5F3
+1122 23.55   28
+1322 23.56   28
+1420 12.56   45
+1420 12.56   45 L
+1443 23.23   19
+2341 45.12   34
+2351 67.90   56
+2456 14.56   22
+3456 14.56   22
+3467 56.90   14
+8001 7.00    14
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-08-12 16:10:42+05:30 [COMMAND_EXIT_CODE="0"]

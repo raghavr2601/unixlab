@@ -1,0 +1,258 @@
+Script started on 2019-08-12 16:13:28+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cp /etc/passwd Ch6S7F1
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Ch6S7F1 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:109::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:106:113::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:107:115:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:108:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+rtkit:x:109:116:RealtimeKit,,,:/proc:/usr/sbin/nologin
+dnsmasq:x:110:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+cups-pk-helper:x:111:118:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+speech-dispatcher:x:112:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+avahi:x:114:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+saned:x:115:121::/var/lib/saned:/usr/sbin/nologin
+nm-openvpn:x:116:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+whoopsie:x:117:123::/nonexistent:/bin/false
+colord:x:118:124:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:119:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:120:125::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:121:126:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:122:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:123:128:Gnome Display Manager:/var/lib/gdm3:/bin/false
+rishi:x:1000:1000:Rishi Vardhan,,,:/home/rishi:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/sbin/nologin
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cut - [Kd [K: f[K-f1 Ch6S7F1 
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-timesync
+systemd-network
+systemd-resolve
+messagebus
+syslog
+_apt
+uuidd
+avahi-autoipd
+usbmux
+rtkit
+dnsmasq
+cups-pk-helper
+speech-dispatcher
+kernoops
+avahi
+saned
+nm-openvpn
+whoopsie
+colord
+hplip
+geoclue
+pulse
+gnome-initial-setup
+gdm
+rishi
+systemd-coredump
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cut -d [K: -f1 Ch6S7F1 | wc
+     44      44     358
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cut -d: -f1 Ch6S7F1 | wc -l
+44
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Ch6S7F2paste <(cut -d: -f1 Ch6S7F1) <(cut -d: -f3 Ch6S7F1) > Ch6S72[C[CF2[C
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat Ch6S7F2[K
+root	0
+daemon	1
+bin	2
+sys	3
+sync	4
+games	5
+man	6
+lp	7
+mail	8
+news	9
+uucp	10
+proxy	13
+www-data	33
+backup	34
+list	38
+irc	39
+gnats	41
+nobody	65534
+systemd-timesync	100
+systemd-network	101
+systemd-resolve	102
+messagebus	103
+syslog	104
+_apt	105
+uuidd	106
+avahi-autoipd	107
+usbmux	108
+rtkit	109
+dnsmasq	110
+cups-pk-helper	111
+speech-dispatcher	112
+kernoops	113
+avahi	114
+saned	115
+nm-openvpn	116
+whoopsie	117
+colord	118
+hplip	119
+geoclue	120
+pulse	121
+gnome-initial-setup	122
+gdm	123
+rishi	1000
+systemd-coredump	999
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ sort -k1 Ch6S7F2 > temp
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat temo[Kp
+_apt	105
+avahi	114
+avahi-autoipd	107
+backup	34
+bin	2
+colord	118
+cups-pk-helper	111
+daemon	1
+dnsmasq	110
+games	5
+gdm	123
+geoclue	120
+gnats	41
+gnome-initial-setup	122
+hplip	119
+irc	39
+kernoops	113
+list	38
+lp	7
+mail	8
+man	6
+messagebus	103
+news	9
+nm-openvpn	116
+nobody	65534
+proxy	13
+pulse	121
+rishi	1000
+root	0
+rtkit	109
+saned	115
+speech-dispatcher	112
+sync	4
+sys	3
+syslog	104
+systemd-coredump	999
+systemd-network	101
+systemd-resolve	102
+systemd-timesync	100
+usbmux	108
+uucp	10
+uuidd	106
+whoopsie	117
+www-data	33
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cp temp Ch6S7F2
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ wc Ch6S7F2
+ 44  88 510 Ch6S7F2
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cat -m[Kn Ch6S7F2
+     1	_apt	105
+     2	avahi	114
+     3	avahi-autoipd	107
+     4	backup	34
+     5	bin	2
+     6	colord	118
+     7	cups-pk-helper	111
+     8	daemon	1
+     9	dnsmasq	110
+    10	games	5
+    11	gdm	123
+    12	geoclue	120
+    13	gnats	41
+    14	gnome-initial-setup	122
+    15	hplip	119
+    16	irc	39
+    17	kernoops	113
+    18	list	38
+    19	lp	7
+    20	mail	8
+    21	man	6
+    22	messagebus	103
+    23	news	9
+    24	nm-openvpn	116
+    25	nobody	65534
+    26	proxy	13
+    27	pulse	121
+    28	rishi	1000
+    29	root	0
+    30	rtkit	109
+    31	saned	115
+    32	speech-dispatcher	112
+    33	sync	4
+    34	sys	3
+    35	syslog	104
+    36	systemd-coredump	999
+    37	systemd-network	101
+    38	systemd-resolve	102
+    39	systemd-timesync	100
+    40	usbmux	108
+    41	uucp	10
+    42	uuidd	106
+    43	whoopsie	117
+    44	www-data	33
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ paste <(head -15 Ch6S7F2) <(tail -n+16 Ch6S7F2|head -15) <(tail -14 Ch6S7F2) > TEMP
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ cp TEMP Ch6S7F2
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ c[Kcat Ch6S7F2
+_apt	105	irc	39	saned	115
+avahi	114	kernoops	113	speech-dispatcher	112
+avahi-autoipd	107	list	38	sync	4
+backup	34	lp	7	sys	3
+bin	2	mail	8	syslog	104
+colord	118	man	6	systemd-coredump	999
+cups-pk-helper	111	messagebus	103	systemd-network	101
+daemon	1	news	9	systemd-resolve	102
+dnsmasq	110	nm-openvpn	116	systemd-timesync	100
+games	5	nobody	65534	usbmux	108
+gdm	123	proxy	13	uucp	10
+geoclue	120	pulse	121	uuidd	106
+gnats	41	rishi	1000	whoopsie	117
+gnome-initial-setup	122	root	0	www-data	33
+hplip	119	rtkit	109	
+]0;rishi@rishi-predator-G9-793: ~[01;32mrishi@rishi-predator-G9-793[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-08-12 16:22:26+05:30 [COMMAND_EXIT_CODE="0"]
